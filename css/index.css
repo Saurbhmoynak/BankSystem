@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+@media (min-width: 992px){
+    .navbar li {
+        margin-left : 1em;
+        margin-right : 1em;
+    }
+}
+
+.bg{
+    background-image: url('../img/bank.jpg');
+    background-position: 18%;
+    background-size: cover;
+    height: 100vh;
+}
+
+  
+.vertical-center {
+    margin-top: 0;
+    position: absolute;
+    top: 100%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+h1{
+    background-color:rgb(255, 225, 29);
+    cursor: pointer;
+    color: #000000;
+    text-align: center;
+    height: 70px; 
+    margin-bottom: 0 !important; 
+    border: 0 !important;
+    height: auto;
+    transform: 0.4s;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+
+h1:hover{
+    background-color: #ffd32a;
+    color:black;
+    transition-duration: 0.4s;
+}
+
+.logo{
+    margin-left: 5%;
+}
+
+.btn1{
+    display: inline-block;
+    position: relative;
+    background-color:  rgb(1, 2, 81);
+    border-color:white ;
+    border-radius: 10px;
+    font-weight:800;
+    font-size: 15px;
+    padding: 3px 10px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.btn1:hover{ 
+    background-color: rgb(66, 173, 249);
+}
+
+.navbar{
+    margin-bottom: 0 !important;
+    border: 0 !important;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.operations{
+    list-style: none;
+    /*border: 2px solid #fff;*/
+    font-size: 15px;
+    font-weight: bold;
+    margin: 30px;
+    border-radius: 15px;
+    font-family: arial;
+}
+
+.operations button{
+    text-decoration: none;
+    padding: 15px 35px;
+    display: block;
+    text-align: center;
+    box-shadow: #020405;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+#red{
+    display: inline-block;
+    text-decoration: none;
+    color: #ff4b66;
+    border: 1px solid #ff4b66;
+    border-radius: 10px;
+    padding: 15px 78px;
+    font-size: 20px;
+    font-weight: 800;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin-top: 65%;
+}
+
+#red:hover{
+    color: #000000;
+    border: 1px solid #ff4b66;
+    background: #ff4b66;
+    transition: 0.5s;
+}
+
+#blue{
+    color: rgb(78, 196, 255);
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid rgb(78, 196, 255);
+    border-radius: 10px;
+    padding: 15px 75px;
+    font-size: 20px;
+    font-weight: 800;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+#blue:hover{
+    background-color: rgb(78, 196, 255);
+    color: #000000;
+    border: 1px solid rgb(78, 196, 255);
+    transition: 0.5s;
+}
+
+#yellow{
+    color: rgb(255, 234, 42);
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid rgb(255, 234, 42) ;
+    border-radius: 10px;
+    padding: 15px 35px;
+    font-size: 20px;
+    font-weight: 800;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+
+}
+
+#yellow:hover{
+    background-color: rgb(255, 234, 42);
+    color: #000000;
+    border: 1px solid rgb(255, 234, 42);
+    transition: 0.5s;
+}
+
+a #container {
+    min-height:100%;
+    position:relative;
+ }
+
+ .btn{
+    display: inline-block;
+    position: relative;
+    color: rgb(252, 252, 252);
+    background-color: rgb(1, 2, 81);
+    border-color:rgb(0, 0, 0) ;
+    border-radius: 10px;
+    padding: 3px 10px;
+    font-weight: 800;
+
+}
+
+.btn:hover{
+    
+    background-color:  rgb(255, 248, 35);
+    color: rgb(0, 0, 0);
+}
+
+ #container #header{
+    background-color:#000000;
+    color: rgb(255, 241, 50);
+    text-align: center;
+    height: 50px;
+    margin-bottom: 0 !important;
+    border: 0 !important;
+    margin-bottom: 5px;
+ }
